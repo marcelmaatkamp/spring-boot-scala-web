@@ -2,14 +2,14 @@ import Dependencies._
 
 //testCompile("org.springframework.boot:spring-boot-starter-test")
 
-lazy val springVersion = "1.5.3.RELEASE"
+lazy val springVersion = "1.5.8.RELEASE"
 lazy val thymeleafVersion = "2.1.5.RELEASE"
 
 lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
       organization := "org.bk",
-      scalaVersion := "2.12.2",
+      scalaVersion := "2.12.3",
       version      := "0.3.0"
     )),
     name := "spring-boot-scala-web",

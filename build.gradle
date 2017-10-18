@@ -1,5 +1,5 @@
 plugins {
-    id 'org.springframework.boot' version '1.5.3.RELEASE'
+    id 'org.springframework.boot' version '1.5.8.RELEASE'
 }
 
 apply plugin: 'java'
@@ -31,6 +31,6 @@ dependencies {
     compile("nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect")
     testCompile("org.springframework.boot:spring-boot-starter-test")
     compile("com.h2database:h2")
-    compile("org.scala-lang:scala-library:2.12.2")
+    compile("org.scala-lang:scala-library:2.12.3")
     compile("org.webjars:bootstrap:3.1.1")
 }
